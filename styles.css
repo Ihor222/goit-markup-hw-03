@@ -52,6 +52,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    
   }
 
   .header{
@@ -173,14 +174,16 @@ body {
   
   .features {
     background-color: #FFFFFF;
-    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
   }
 
   .features-list{
-    margin-bottom: 8px;
+    display: flex;
     gap: 24px;
+  }
+
+  .features-item{
     width: calc((100% - 72px) / 4);
   }
   
@@ -287,6 +290,10 @@ body {
   
   .footer {
     background-color: #2E2F42;
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 100px 0
+    
   }
   
   .footer-link {
