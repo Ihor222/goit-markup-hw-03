@@ -37,6 +37,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
   }
 
   .visually-hidden {
@@ -85,8 +86,9 @@ body {
 
   .header-nav{
     display: flex;
+    padding: 24px 0;
     align-items: center;
-    gap: 76px;
+    margin-right: 76px
   }
 
   .header-menu-list{
@@ -109,11 +111,11 @@ body {
   .address-list {
     display: flex;
     margin-left: auto;
+    gap: 40px;
   }
   
   .address-item {
-    margin-left: auto;
-
+    
   }
   
   .address-link {
