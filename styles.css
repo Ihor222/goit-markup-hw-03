@@ -173,8 +173,15 @@ body {
   
   .features {
     background-color: #FFFFFF;
+    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .features-list{
+    margin-bottom: 8px;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
   }
   
   .features-subtitle {
