@@ -25,6 +25,11 @@ body {
   [type='button'] {
     background-color: #A52A2A; 
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    min-width: 169px;
+    min-height: 56px;
   }
 
   .container{
@@ -51,6 +56,7 @@ body {
   .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
   }
 
   .hero-wrapper{
@@ -76,6 +82,17 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
+
+  .header-nav{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+  }
+
+  .header-menu-list{
+    display: flex;
+    gap: 40px;
+  }
   
   .header-menu-link {
     color: #2E2F42;
@@ -86,13 +103,17 @@ body {
   }
   
   .address {
-    font-style: normal;
+    
   }
   
   .address-list {
+    display: flex;
+    margin-left: auto;
   }
   
   .address-item {
+    margin-left: auto;
+
   }
   
   .address-link {
@@ -175,6 +196,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding: 120px 639px 572px 639px;
+    margin: 0 auto;
   }
   
   .team-list {
