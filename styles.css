@@ -128,7 +128,9 @@ body {
   
   .hero {
     background-color: #2E2F42;
+    max-width: 496px; 
     padding: 188px 0
+     
   }
 
   .hero-wrapper{
@@ -140,7 +142,8 @@ body {
   
   .hero-title {
     color: #FFFFFF;
-    max-width: 496px;
+    max-width: 496px; 
+  margin: 0 auto; 
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
