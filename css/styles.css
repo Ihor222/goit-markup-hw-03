@@ -55,8 +55,7 @@ body {
   }
 
   .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc
   }
 
@@ -72,6 +71,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
   }
   
   .header-logo-black {
@@ -88,12 +88,12 @@ body {
     display: flex;
     padding: 24px 0;
     align-items: center;
-    margin-right: 76px
   }
 
   .header-menu-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0
   }
   
   .header-menu-link {
@@ -211,6 +211,7 @@ body {
   }
   
   .team-img {
+    display: block
   }
   
   .team-subtitle {
@@ -250,6 +251,7 @@ body {
   }
   
   .portfolio-img {
+    display: block
   }
   
   .portfolio-subtitle {
