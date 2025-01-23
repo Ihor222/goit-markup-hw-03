@@ -129,7 +129,7 @@ body {
   }
 
   .hero-wrapper{
-    max-width: 496px;
+    padding: 24px 0 ;
     margin: 0 auto;
     margin-bottom: 48px;
   }
@@ -141,16 +141,23 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    
   }
   
-  .hero-btn {
+  .hero-btn-title {
     color: #FFFFFF;
     background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
   }
   
   button:hover {
