@@ -291,9 +291,6 @@ body {
   .footer {
     background-color: #2E2F42;
     display: inline-block;
-    margin-bottom: 16px;
-    padding: 100px 0
-    
   }
   
   .footer-link {
@@ -315,6 +312,9 @@ body {
   
   .header-logo-two {
     color: #F4F4FD;
+    margin-bottom: 16px;
+    display: inline-block; 
+    padding: 100px 0;
   }
   
   .header-menu-link:hover,
