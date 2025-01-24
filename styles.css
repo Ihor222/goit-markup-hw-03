@@ -174,16 +174,18 @@ body {
   }
 
   .features-list{
-    
+    display: flex;
+    gap: 24px;
   }
 
   .features-item{
-    
+    width: calc((100% - 72px) / 4);
   }
   
   .features-subtitle {
     color: #2E2F42;
     font-size: 20px;
+    margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
