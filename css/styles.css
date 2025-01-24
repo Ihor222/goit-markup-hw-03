@@ -200,6 +200,12 @@ body {
   
   .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+  }
+
+  .team-member{
+    padding: 32px 0;
+    
   }
   
   .team-title {
@@ -211,7 +217,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding: 120px 0 120px 0;
     margin-bottom: 72px;
   }
   
