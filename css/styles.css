@@ -211,7 +211,7 @@ body {
   .team-title {
     color: #2E2F42;
     font-family: Roboto;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -231,6 +231,7 @@ body {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 8px;
   }
   
   .team-img {
