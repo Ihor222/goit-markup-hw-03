@@ -211,16 +211,21 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding: 120px 639px 572px 639px;
+    padding: 120px 0 120px 0;
     margin: 0 auto;
   }
   
   .team-list {
     background-color: #FFFFFF;
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 24px; 
+    row-gap: 48px; 
   }
   
   .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 48px) / 3); 
   }
   
   .team-img {
@@ -230,6 +235,7 @@ body {
   .team-subtitle {
     color: #2E2F42;
     font-size: 20px;
+    margin-bottom: 72px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
