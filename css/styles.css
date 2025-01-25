@@ -56,7 +56,6 @@ body {
   }
 
   .header{
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc
   }
 
@@ -89,6 +88,7 @@ body {
   .header-nav{
     display: flex;
     align-items: center;
+    padding: 24px 0;
   }
 
   .header-menu-list{
@@ -258,7 +258,6 @@ body {
   .portfolio {
     padding-top: 120px;
     padding-bottom: 120px; 
-    margin-bottom: 8px;
   }
   
   .portfolio-title {
@@ -268,6 +267,7 @@ body {
     margin-bottom: 72px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     text-align: center;
     text-transform: capitalize;
   }
