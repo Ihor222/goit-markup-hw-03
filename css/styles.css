@@ -59,7 +59,6 @@ body {
 
   .flex-container{
     display: flex;
-    padding: 24px 0;
   }
 
   .header-adress{
@@ -96,7 +95,6 @@ body {
   .header-nav{
     display: flex;
     align-items: center;
-    padding: 24px 0;
   }
 
   .header-menu-list{
@@ -121,11 +119,10 @@ body {
     display: flex; 
    margin-left: auto;
     gap: 40px;
-    padding: 24px 0;
   }
   
   .address-item {
-    padding: 24px 0
+    
   }
   
   .address-link {
