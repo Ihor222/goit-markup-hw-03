@@ -267,7 +267,6 @@ body {
     margin-bottom: 72px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
     text-align: center;
     text-transform: capitalize;
   }
@@ -316,6 +315,7 @@ body {
   
   .footer-link {
     color: #4D5AE5;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     margin-bottom: 16px;
