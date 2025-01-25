@@ -88,15 +88,16 @@ body {
   .header-nav{
     display: flex;
     align-items: center;
-    padding: 24px 0;
   }
 
   .header-menu-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
   }
   
   .header-menu-link {
+    display: flex;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
