@@ -18,9 +18,7 @@ body {
     padding: 0;
   }
 
-  address {
-    font-style: normal;
-  }
+  
   
   [type='button'] {
     background-color: #A52A2A; 
@@ -56,7 +54,11 @@ body {
 
   .header{
     border-bottom: 1px solid #e7e9fc;
-    display: flex; 
+    display: flex;
+  }
+
+  .header-adress{
+    display: flex;
   }
 
   
@@ -106,17 +108,19 @@ body {
   }
   
   .address {
-    
+   font-style: normal;
+   display: flex;
   }
   
   .address-list {
     display: flex; 
    margin-left: auto;
     gap: 40px;
+    padding: 24px 0;
   }
   
   .address-item {
-    padding: 24px 0 
+    padding: 24px 0
   }
   
   .address-link {
