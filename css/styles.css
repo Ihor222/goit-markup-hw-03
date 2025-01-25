@@ -109,8 +109,8 @@ body {
   }
   
   .address-list {
-    display: flex;
-    margin-left: auto;
+    display: flex; 
+   margin-left: auto;
     gap: 40px;
   }
   
@@ -295,6 +295,7 @@ body {
   .portfolio-subtitle {
     color: #2E2F42;
     font-size: 20px;
+    margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
