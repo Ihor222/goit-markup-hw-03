@@ -311,11 +311,11 @@ body {
   .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+    display: inline-block;
   }
   
   .footer-link {
     color: #4D5AE5;
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     margin-bottom: 16px;
