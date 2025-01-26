@@ -96,7 +96,6 @@ body {
   .header-nav{
     display: flex;
     align-items: center;
-    padding: 24px 0;
   }
 
   .header-menu-list{
